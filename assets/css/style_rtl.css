@@ -1,0 +1,23 @@
+body {
+  direction: rtl;
+}
+@media (min-width: 991px) {
+  .contact-us-image::after {
+    left: -48px;
+    right: auto;
+  }
+}
+
+.newsletter-email input {
+  text-align: right;
+}
+
+.our-clients-prev {
+  right: 1%;
+  left: auto;
+}
+
+.our-clients-next {
+  left: 1%;
+  right: auto;
+}

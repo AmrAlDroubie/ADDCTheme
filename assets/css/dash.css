@@ -1,0 +1,9 @@
+body {
+  font-family: "Bahij TheSansArabic";
+}
+.custom-input-field {
+  flex-direction: column;
+}
+.custom-input-field .rwmb-label {
+  margin-bottom: 10px;
+}
