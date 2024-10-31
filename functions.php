@@ -10,6 +10,7 @@ if (!function_exists("load_theme_assets")) {
     function load_theme_assets()
     {
         global $base;
+        global $current_lang;
         // styles
         if(pll_current_language()=="en"){
             wp_enqueue_style('addc_bootstrap_css', $base . 'assets/css/bootstrap.min.css', [], null);
