@@ -25,7 +25,7 @@ if(!function_exists('our_services_custom_fields')){
     add_filter( 'rwmb_meta_boxes', 'our_services_custom_fields');
 }
 
-
+if(isset($_GET['post']))
 if(!function_exists('addc_information') && $_GET['post'] == 10){
     function addc_information($meta_boxes) {
         $prefix = '';
