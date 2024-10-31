@@ -134,6 +134,12 @@ body {
   min-height: 90px;
 }
 
+@media (max-width: 991px) {
+  .navbar-brand {
+    max-width: 70%;
+  }
+}
+
 /* landing */
 .landing {
   background-repeat: no-repeat;
